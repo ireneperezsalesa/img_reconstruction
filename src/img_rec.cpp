@@ -11,7 +11,6 @@
 #include <dvs_msgs/EventArray.h>
 
 
-cv::Mat frame = cv::Mat::zeros(cv::Size(240,180), CV_8UC1);
 cv_bridge::CvImage cv_image;
 cv_bridge::CvImage last;
 
